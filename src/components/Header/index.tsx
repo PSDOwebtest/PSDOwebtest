@@ -31,7 +31,9 @@ export default function Header() {
     return (
         <React.Fragment>
             <header className={"bg-[#161D25] flex justify-center mobile:justify-between sm:justify-between lg:justify-center items-center gap-5 p-12"}>
-                <Image src={"/Images/logo.png"} alt={"logo"} height={60} width={60} />
+                <Link href={'/'}>
+                <Image src={"/Images/PSDOweblogo.png"} alt={"logo"} height={60} width={60} />
+                </Link>
                 <ul className={"flex gap-2 mobile:hidden sm:hidden lg:flex"}>
                     <HeaderButton url={"/"} title={"Accueil"} />
                     <HeaderButton url={"/collaborateurs"} title={"Collaborateurs"} />

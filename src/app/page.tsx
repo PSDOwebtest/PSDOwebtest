@@ -43,7 +43,7 @@ export default function Home() {
                             <p className={"text-lg"}>Maxime Petit</p>
                         </div>
                         <div className={"flex flex-col items-center gap-2"}>
-                            <Image src={"/Images/Logo_collab.png"} alt={"Logo collaborateur"} height={100} width={100}
+                            <Image src={"/Images/logoCollab/logoDL.png"} alt={"Logo collaborateur"} height={100} width={100}
                                 className={"bg-black rounded-full"} />
                             <p className={"text-lg"}>Damien Landa</p>
                         </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }}
                     viewport={{ once: true }}>
                     <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.05 }}>
-                        <Link href={'/collab'} className={"bg-custom_yellow px-20 mobile:px-7 rounded-md py-3 text-xl"}>Rencontrez
+                        <Link href={'/collaborateurs'} className={"bg-custom_yellow px-20 mobile:px-7 rounded-md py-3 text-xl"}>Rencontrez
                             Notre
                             Équipe →</Link>
                     </motion.div>
@@ -122,7 +122,7 @@ export default function Home() {
                     transition={{ type: "spring", bounce: 0.25, delay: 2 }}
                     viewport={{ once: true }}>
                     <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.05 }}>
-                        <Link href={'/'} className={"bg-custom_yellow px-20 mobile:px-10 rounded-md py-3 text-xl"}>Parlons
+                        <Link href={'/construisons'} className={"bg-custom_yellow px-20 mobile:px-10 rounded-md py-3 text-xl"}>Parlons
                             de
                             Votre Site
                             →</Link>

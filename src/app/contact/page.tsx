@@ -251,9 +251,9 @@ export default function Page() {
                 <Image src={"/Images/decoration/Icons/6.png"} alt={''} width={160} height={160}
                        className={"mobile:hidden absolute z-[5] left-[10rem] top-[30rem] opacity-10"}/>
                 <Image src={"/Images/decoration/Icons/4.png"} alt={''} width={300} height={300}
-                       className={"tablet:hidden absolute z-[5] right-[10rem] top-[65rem] opacity-10"}/>
+                       className={"tablet:hidden absolute z-[5] right-[10rem] top-[71rem] opacity-10"}/>
                 <Image src={"/Images/decoration/Icons/4.png"} alt={''} width={300} height={300}
-                       className={"tablet:hidden absolute z-[5] left-[10rem] top-[65rem] opacity-10"}/>
+                       className={"tablet:hidden absolute z-[5] left-[10rem] top-[71rem] opacity-10"}/>
             </div>
         </>
     )
