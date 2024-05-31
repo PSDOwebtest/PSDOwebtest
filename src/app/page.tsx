@@ -33,13 +33,17 @@ export default function Home() {
                         transition={{ duration: 1 }} viewport={{ once: true }}
                         className={"flex mobile:flex-col mobile:items-center gap-10"}>
                         <div className={"flex flex-col items-center gap-2"}>
+                            <Link href="https://www.gabinbuignet.xyz/">
                             <Image src={"/Images/Logo_collab.png"} alt={"Logo collaborateur"} height={100} width={100}
                                 className={"bg-black rounded-full"} />
+                            </Link>
                             <p className={"text-lg"}>Gabin Buignet</p>
                         </div>
                         <div className={"flex flex-col items-center gap-2"}>
+                            <Link href="">
                             <Image src={"/Images/logoCollab/logoMP.png"} alt={"Logo collaborateur"} height={100} width={100}
                                 className={"bg-black rounded-full"} />
+                            </Link> 
                             <p className={"text-lg"}>Maxime Petit</p>
                         </div>
                         <div className={"flex flex-col items-center gap-2"}>

@@ -112,7 +112,7 @@ export default function Page() {
       <motion.div initial={{ opacity: 0, y: 90 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="hidden lg:flex relative">
         <hr className="custom-dashed-border my-4 absolute left-[400px]" />
       </motion.div>
-      <section id="collab_4" className="flex flex-col items-center gap-[22px] px-[10px] py-5 relative lg:flex-row-reverse lg:h-[320px] justify-center lg:gap-52 bg-gradient-to-t from-0% from-custom_blue_black to-10% to-white">
+      <section id="collab_4" className="flex flex-col items-center gap-[22px] px-[10px] py-5 relative lg:flex-row-reverse lg:h-[320px] justify-center lg:gap-52">
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="flex flex-col gap-[10px] items-center">
           <div className="bg-black w-fit">
             <Image src="/Images/logoCollab/logoMP.png" alt="logo_maxime_petit" width={100} height={100} className="p-1 w-14 md:w-20" />
@@ -132,6 +132,32 @@ export default function Page() {
         </motion.div>
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 0.1, y: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="hidden absolute opacity-10 bottom-5 lg:flex left-16 sm:left-32">
           <Image src="/Images/decoration/Icons/3.png" alt="server_logo" width={75} height={75} />
+        </motion.div>
+      </section>
+
+      <motion.div initial={{ opacity: 0, y: 90 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="hidden lg:flex relative">
+        <hr className="custom-dashed-border my-4 absolute left-[400px]" />
+      </motion.div>
+      <section id="collab_5" className="flex flex-col items-center gap-[22px] px-[10px] py-5 relative lg:flex-row lg:h-[320px] justify-center lg:gap-52 bg-gradient-to-t from-0% from-custom_blue_black to-10% to-white">
+        <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="flex flex-col gap-[10px] items-center">
+          <div className="rounded-full bg-black w-fit">
+            <Image src="/Images/logoCollab/logoDL.png" alt="logo_damien_landa" width={100} height={100} className="p-1 w-14 md:w-20" />
+          </div>
+          <h2>Damien Landa</h2>
+        </motion.div>
+        <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="flex flex-col gap-[22px] justify-center items-center">
+          <p className="w-[300px] md:w-[500px] text-center">Je suis un développeur web full stack avec une expertise particulière en front-end. Ma maîtrise approfondie de l&apos;accessibilité web me permet de créer des sites ergonomiques et esthétiques, accessibles à tous. Que vous ayez besoin d'un site vitrine élégant ou d'une application web complexe, je suis ici pour vous offrir des solutions adaptées et inclusives.</p>
+          <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.15 }}>
+            <Link href="https://www.gabinbuignet.xyz/" target={"_blank"} className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">
+              Portfolio
+            </Link>
+          </motion.div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 0.1, y: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="absolute opacity-10 top-5 lg:top-56 right-16 sm:right-32">
+          <Image src="/Images/decoration/Icons/2.png" alt="cloud_logo" width={75} height={75} />
+        </motion.div>
+        <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 0.1, y: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="hidden absolute opacity-10 top-5 lg:flex left-16 sm:left-32">
+          <Image src="/Images/decoration/Icons/3.png" alt="client_logo" width={75} height={75} />
         </motion.div>
       </section>
     </main>
