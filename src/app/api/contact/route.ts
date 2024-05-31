@@ -69,8 +69,8 @@ export async function POST(req: NextRequest) {
             extName: '.handlebars'
         }))
         let mailOptions = {
-            // to: "baptiste.petit@psdoweb.com",
-            to: "gabin.buignet@gmail.com",
+            to: "baptiste.petit@psdoweb.com",
+            // to: "gabin.buignet@gmail.com",
             subject: "Un client viens de vous contactez ! ✔", // Subject line
             template: 'template',
             context: data
