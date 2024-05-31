@@ -231,8 +231,8 @@ export default function Page() {
                                 {captchaFailed && (
                                     <p className={"text-red-500"}>Veuillez cocher cette case</p>
                                 )}
-                                <ReCAPTCHA sitekey={"6LcH3eopAAAAACe8QCqRQ5DBMH3ObUCgdM_anJ0U"}
-                                           onChange={handleCaptchaChange}/>
+                                {/* <ReCAPTCHA sitekey={"6LcH3eopAAAAACe8QCqRQ5DBMH3ObUCgdM_anJ0U"}
+                                           onChange={handleCaptchaChange}/> */}
                             </div>
                             <motion.input initial={{scale: 1}} whileHover={{scale: 0.95}} type="submit"
                                           value={state}

@@ -12,7 +12,7 @@ export default function Home() {
                 <motion.div initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2 }}
                     className={"flex flex-col items-center w-fit gap-5 px-16 mobile:px-5 z-10"}>
                     <motion.h2
-                        className={"text-[70px] font-semibold tablet:text-6xl tablet:text-center"}>{"PSDO"}</motion.h2>
+                        className={"text-[100px] font-semibold tablet:text-8xl tablet:text-center"}>{"PSDO"}</motion.h2>
                     <p className={"text-center w-[30rem] mobile:w-[15rem]"}>{"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."}</p>
                     <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.05 }}>
                         <Link href={'/contact'}
