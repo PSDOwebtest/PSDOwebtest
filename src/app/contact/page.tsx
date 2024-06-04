@@ -81,7 +81,7 @@ export default function Page() {
                                 <CustomFormInput type={"phone"} name={"phone"} labelVal={"Numéro de téléphone *"}
                                                  required={true}/>
                                 <CustomFormInput type={"text"} name={"discover_service"}
-                                                 labelVal={"comment nous avez vous découvert ? *"}/>
+                                                 labelVal={"Comment avez-vous découvert nos service ? *"}/>
                             </div>
                         </div>
                     </section>
