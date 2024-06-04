@@ -76,12 +76,12 @@ export default function Page() {
                             className={"z-10 bg-custom_yellow flex flex-col justify-center items-center gap-5 mobile:w-[20rem] w-[45vw] p-5 rounded shadow-custom_shadow"}>
                             <p className={"text-2xl font-bold text-center"}>Information personnelle</p>
                             <div className={"flex flex-col justify-center items-center gap-5"}>
-                                <CustomFormInput type={"text"} name={"name"} labelVal={"Nom & prénom"} required={true}/>
-                                <CustomFormInput type={"email"} name={"email"} labelVal={"Email"} required={true}/>
-                                <CustomFormInput type={"phone"} name={"phone"} labelVal={"Numéro de téléphone"}
+                                <CustomFormInput type={"text"} name={"name"} labelVal={"Nom & prénom *"} required={true}/>
+                                <CustomFormInput type={"email"} name={"email"} labelVal={"Email *"} required={true}/>
+                                <CustomFormInput type={"phone"} name={"phone"} labelVal={"Numéro de téléphone *"}
                                                  required={true}/>
                                 <CustomFormInput type={"text"} name={"discover_service"}
-                                                 labelVal={"Comment avez-vous découvert notre service ?"}/>
+                                                 labelVal={"comment nous avez vous découvert ? *"}/>
                             </div>
                         </div>
                     </section>
