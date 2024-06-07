@@ -18,11 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-          <link rel="icon" href="Images/logo.png" type="image/x-icon">
-    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="Images/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Images/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Images/logo.png">
+          <link rel="icon" href="public/Images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="public/Images/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/Images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/Images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/Images/logo.png">
     <link rel="manifest" href="/site.webmanifest">
       <body className={inter.className}>
         <Header />
