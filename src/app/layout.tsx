@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="en">
           <link rel="icon" href="public/Images/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="public/Images/logo.png" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="public/Images/logo.png">
