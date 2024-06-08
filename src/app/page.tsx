@@ -1,11 +1,17 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion"
+import {motion} from "framer-motion"
+import Head from "next/head";
+import React from "react";
 
 export default function Home() {
     return (
         <main className="">
+            <Head>
+                <link rel="icon" href="/favicon.ico"/>
+                <meta name={"description"} content={"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."} key={"desc"}/>
+            </Head>
             <title>Accueil</title>
             <section
                 className={"relative flex flex-col mobile:items-center tablet:items-center gap-16 mobile:gap-8 bg-gradient-to-b from-0% from-custom_blue_black to-10% to-white px-44 mobile:px-10 py-24"}>
