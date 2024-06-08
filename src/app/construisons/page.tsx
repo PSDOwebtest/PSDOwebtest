@@ -1,11 +1,12 @@
 'use client'
 import { motion } from "framer-motion";
 import Image from "next/image";
+import CustomHead from "@/components/CustomHead";
 
 export default function Construisons() {
   return (
     <main>
-      <title className="text-4xl font-bold">Construisons Ensemble</title>
+      <CustomHead title={"Construisons Ensemble"} description={"Nous serions ravis de discuter de votre projet. Contactez-nous aujourd'hui à baptiste.petit@psdoweb.com ou via notre formulaire en ligne pour fixer un rendez-vous gratuit. Votre projet mérite ce qu'il y a de meilleur, et nous sommes ici pour vous aider à le réaliser."} keywords={"construisons ensemble, construisons"}/>
       <div className="bg-gradient-to-b from-0% from-custom_blue_black to-10% to-white p-5 text-center">
         <motion.h1 initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="text-4xl font-bold">Construisons Ensemble</motion.h1>
       </div>
@@ -13,7 +14,7 @@ export default function Construisons() {
         <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="flex flex-col items-center justify-center gap-8 m-5">
           <h3 className="font-bold text-xl">Vous avez une idée précise ?</h3>
           <p className="text-base">
-            Parfait ! Nous aimons travailler avec des clients qui savent exactement ce qu&apos;ils veulent. Partagez avec nous vos spécifications, vos idées de design, les fonctionnalités que vous imaginez, et même les exemples de sites que vous admirez. Nous sommes ici pour transformer votre vision en réalité. Pour démarrer, veuillez remplir notre formulaire de contact ou nous envoyer un email à [adresse email]. Nous vous répondrons rapidement pour fixer une première réunion de consultation.
+            Parfait ! Nous aimons travailler avec des clients qui savent exactement ce qu&apos;ils veulent. Partagez avec nous vos spécifications, vos idées de design, les fonctionnalités que vous imaginez, et même les exemples de sites que vous admirez. Nous sommes ici pour transformer votre vision en réalité. Pour démarrer, veuillez remplir notre formulaire de contact ou nous envoyer un email à baptiste.petit@psdoweb. Nous vous répondrons rapidement pour fixer une première réunion de consultation.
           </p>
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }} className="p-3 gap-8 flex flex-col items-center justify-center text-center rounded-[10px] bg-custom_yellow z-20 m-5">

@@ -3,12 +3,13 @@ import CustomBlock from "@/components/MentionsLegales/CustomBlock";
 import SommaireLink from "@/components/MentionsLegales/SommaireLink";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import CustomHead from "@/components/CustomHead";
 
 export default function Page() {
     return (
         <>
+            <CustomHead title={"Mentions Légales"} description={"Découvrez nos mentions légales pour en savoir plus sur les informations légales relatives à notre entreprise, y compris les conditions d'utilisation, la politique de confidentialité, et les détails de contact."} keywords={"mentions légales, legales"}/>
             <div>
-                <title>Mentions Légales</title>
                 <div className={"bg-gradient-to-b from-0% from-custom_blue_black to-10% to-white"}>
                     <section className={"flex flex-col items-center gap-5 pt-10"}>
                         <p className={"text-3xl font-bold"}>Mentions Légales</p>

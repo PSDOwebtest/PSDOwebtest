@@ -4,6 +4,7 @@ import {SetStateAction, useState} from "react";
 import {AnimatePresence, motion} from "framer-motion"
 import Image from "next/image";
 import ReCAPTCHA from "react-google-recaptcha"
+import CustomHead from "@/components/CustomHead";
 
 export default function Page() {
     const [state, setState] = useState("Envoyer")
@@ -58,6 +59,7 @@ export default function Page() {
     }
     return (
         <>
+            <CustomHead title={"Contactez-nous"} description={"Pour commencez votre démarche de création de site web c'est par ici !"} keywords={"contactez nous, contactez-nous"}/>
             <AnimatePresence>
                 {showToast && (
                     <motion.div initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}} exit={{opacity: 0, x: 100}}
@@ -67,7 +69,6 @@ export default function Page() {
                 )}
             </AnimatePresence>
             <div className="relative min-h-dvh max-h-fit flex flex-col items-center gap-5">
-                <title>Contactez-nous</title>
                 <form onSubmit={submitHandler} className={"flex flex-col justify-center items-center"}>
                     <section
                         className={"bg-gradient-to-b from-0% from-custom_blue_black to-[5%] to-white w-dvw flex flex-col items-center py-10"}>
