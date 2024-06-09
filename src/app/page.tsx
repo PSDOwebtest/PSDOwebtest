@@ -77,13 +77,13 @@ export default function Home() {
                                 Équipe →</Link>
                         </motion.div>
                     </motion.div>
-                    <div className={"mobile:hidden flex justify-between items-center w-full"}>
+                    <div className={"mobile:hidden flex justify-between tablet:justify-center items-center w-full"}>
                         <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo"} width={300} height={300}
-                               className={"opacity-20"}></Image>
+                               className={"opacity-20 tablet:hidden"}></Image>
                         <Image src={"/Images/decoration/Icons/1.png"} alt={"Logo"} width={300} height={300}
                                className={"opacity-20"}></Image>
                         <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo"} width={300} height={300}
-                               className={"opacity-20"}></Image>
+                               className={"opacity-20 tablet:hidden"}></Image>
                     </div>
                 </section>
                 <section className={"flex flex-col items-center gap-10 py-10"}>
