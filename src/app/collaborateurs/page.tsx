@@ -2,7 +2,6 @@
 import {motion} from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 import React from "react";
 import CustomHead from "@/components/CustomHead";
 
@@ -14,7 +13,7 @@ export default function Page() {
                             className="bg-gradient-to-b from-0% from-custom_blue_black to-10% to-white flex justify-around items-center relative">
                 <motion.div initial={{opacity: 0, x: -40}} whileInView={{opacity: 1, x: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}>
-                    <Image src="/Images/decoration/Icons/4.png" alt="world_wide_web" width={100} height={100}
+                    <Image src="/Images/decoration/Icons/4.png" alt="Logo de décoration" width={100} height={100}
                            className="hidden lg:flex opacity-10 w-52 h-52"/>
                 </motion.div>
                 <div className="flex flex-col gap-[43px]">
@@ -44,7 +43,7 @@ export default function Page() {
                 </div>
                 <motion.div initial={{opacity: 0, x: 40}} whileInView={{opacity: 1, x: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}>
-                    <Image src="/Images/decoration/Icons/4.png" alt="world_wide_web" width={100} height={100}
+                    <Image src="/Images/decoration/Icons/4.png" alt="Logo de décoration" width={100} height={100}
                            className="hidden lg:flex opacity-10 w-52 h-52"/>
                 </motion.div>
             </motion.section>
@@ -59,7 +58,7 @@ export default function Page() {
                 <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{type: "spring", bounce: 0.25}}
                             viewport={{once: true}} className="flex flex-col gap-[10px] items-center">
                     <div className="rounded-full bg-black w-fit">
-                        <Image src="/Images/logoCollab/logoBP.png" alt="logo_baptiste_petit" width={100} height={100}
+                        <Image src="/Images/logoCollab/logoBP.png" alt="Logo de Baptise Petit" width={100} height={100}
                                className="p-1 w-14 md:w-20"/>
                     </div>
                     <motion.h2>Baptiste Petit</motion.h2>
@@ -82,12 +81,12 @@ export default function Page() {
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="w-fit absolute opacity-10 top-5 lg:top-56 right-16 sm:right-32">
-                    <Image src="/Images/decoration/Icons/2.png" alt="cloud_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/2.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: 40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="w-fit hidden absolute opacity-10 top-5 lg:flex left-16 sm:left-32">
-                    <Image src="/Images/decoration/Icons/3.png" alt="client_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/3.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
             </section>
 
@@ -102,7 +101,7 @@ export default function Page() {
                 <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{type: "spring", bounce: 0.25}}
                             viewport={{once: true}} className="flex flex-col gap-[10px] items-center">
                     <div className="rounded-full bg-black w-fit">
-                        <Image src="/Images/logoCollab/logoBD2.png" alt="logo_benjamin_desmet" width={100} height={100}
+                        <Image src="/Images/logoCollab/logoBD2.png" alt="Logo de Benjamin Desmet" width={100} height={100}
                                className="p-1 w-14 md:w-20"/>
                     </div>
                     <h2>Benjamin Desmet</h2>
@@ -123,12 +122,12 @@ export default function Page() {
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="absolute opacity-10 top-5 lg:bottom-56 left-16 sm:right-32 lg:left-[88%]">
-                    <Image src="/Images/decoration/Icons/4.png" alt="world_wide_web" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/4.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: 40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="hidden absolute opacity-10 bottom-5 lg:flex left-16 sm:left-32">
-                    <Image src="/Images/decoration/Icons/3.png" alt="server_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/3.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
             </section>
 
@@ -142,7 +141,7 @@ export default function Page() {
                 <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{type: "spring", bounce: 0.25}}
                             viewport={{once: true}} className="flex flex-col gap-[10px] items-center">
                     <div className="rounded-full bg-black w-fit">
-                        <Image src="/Images/logoCollab/logoGB.png" alt="logo_gabin_buignet" width={100} height={100}
+                        <Image src="/Images/logoCollab/logoGB.png" alt="Logo de Gabin Buignet" width={100} height={100}
                                className="p-1 w-14 md:w-20"/>
                     </div>
                     <h2>Gabin Buignet</h2>
@@ -163,12 +162,12 @@ export default function Page() {
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="absolute opacity-10 top-5 lg:top-56 right-16 sm:right-32">
-                    <Image src="/Images/decoration/Icons/2.png" alt="cloud_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/2.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: 40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="hidden absolute opacity-10 top-5 lg:flex left-16 sm:left-32">
-                    <Image src="/Images/decoration/Icons/3.png" alt="client_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/3.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
             </section>
 
@@ -182,7 +181,7 @@ export default function Page() {
                 <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{type: "spring", bounce: 0.25}}
                             viewport={{once: true}} className="flex flex-col gap-[10px] items-center">
                     <div className="bg-black w-fit">
-                        <Image src="/Images/logoCollab/logoMP.png" alt="logo_maxime_petit" width={100} height={100}
+                        <Image src="/Images/logoCollab/logoMP.png" alt="Logo de Maxime Petit" width={100} height={100}
                                className="p-1 w-14 md:w-20"/>
                     </div>
                     <h2>Maxime Petit</h2>
@@ -203,12 +202,12 @@ export default function Page() {
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="absolute opacity-10 top-5 lg:bottom-56 left-16 sm:right-32 lg:left-[88%]">
-                    <Image src="/Images/decoration/Icons/4.png" alt="world_wide_web" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/4.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: 40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="hidden absolute opacity-10 bottom-5 lg:flex left-16 sm:left-32">
-                    <Image src="/Images/decoration/Icons/3.png" alt="server_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/3.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
             </section>
 
@@ -222,7 +221,7 @@ export default function Page() {
                 <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{type: "spring", bounce: 0.25}}
                             viewport={{once: true}} className="flex flex-col gap-[10px] items-center">
                     <div className="rounded-full bg-black w-fit">
-                        <Image src="/Images/logoCollab/logoDL.png" alt="logo_damien_landa" width={100} height={100}
+                        <Image src="/Images/logoCollab/logoDL.png" alt="Logo de Damien Landa" width={100} height={100}
                                className="p-1 w-14 md:w-20"/>
                     </div>
                     <h2>Damien Landa</h2>
@@ -244,12 +243,12 @@ export default function Page() {
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="absolute opacity-10 top-5 lg:top-56 right-16 sm:right-32">
-                    <Image src="/Images/decoration/Icons/2.png" alt="cloud_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/2.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: 40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                             className="hidden absolute opacity-10 top-5 lg:flex left-16 sm:left-32">
-                    <Image src="/Images/decoration/Icons/3.png" alt="client_logo" width={75} height={75}/>
+                    <Image src="/Images/decoration/Icons/3.png" alt="Logo de décoration" width={75} height={75}/>
                 </motion.div>
             </section>
         </main>

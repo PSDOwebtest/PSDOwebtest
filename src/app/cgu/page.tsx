@@ -229,25 +229,25 @@ export default function Page() {
             <motion.div initial={{opacity: 0, x: -40}} whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                         className="hidden lg:flex absolute top-[100%] left-[10%]">
-                <Image src={"/images/decoration/icons/2.png"} alt="cloud_logo" width={100} height={100}
+                <Image src={"/images/decoration/icons/2.png"} alt="Logo de décoration" width={100} height={100}
                        className="opacity-10"/>
             </motion.div>
             <motion.div initial={{opacity: 0, x: 40}} whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                         className="hidden lg:flex absolute top-[170%] right-[10%]">
-                <Image src={"/images/decoration/icons/3.png"} alt="server_logo" width={100} height={100}
+                <Image src={"/images/decoration/icons/3.png"} alt="Logo de décoration" width={100} height={100}
                        className="opacity-10"/>
             </motion.div>
             <motion.div initial={{opacity: 0, x: -40}} whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                         className="hidden lg:flex absolute top-[240%] left-[10%]">
-                <Image src={"/images/decoration/icons/1.png"} alt="client_logo" width={100} height={100}
+                <Image src={"/images/decoration/icons/1.png"} alt="Logo de décoration" width={100} height={100}
                        className="opacity-10"/>
             </motion.div>
             <motion.div initial={{opacity: 0, x: 40}} whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
                         className="hidden lg:flex absolute top-[310%] right-[10%]">
-                <Image src={"/images/decoration/icons/4.png"} alt="web_logo" width={100} height={100}
+                <Image src={"/images/decoration/icons/4.png"} alt="Logo de décoration" width={100} height={100}
                        className="opacity-10"/>
             </motion.div>
             <motion.div initial={{opacity: 0, x: -40}} whileInView={{opacity: 1, x: 0}}

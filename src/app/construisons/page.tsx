@@ -25,10 +25,10 @@ export default function Construisons() {
         </motion.div>
         <div className="absolute bg-[url('/Images/decoration/banner.png')] bg-cover bg-center h-[118px] w-full bottom-0 z-10 opacity-10 lg:hidden"></div>
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="hidden lg:flex absolute opacity-10 right-20 top-1/4">
-          <Image src={"/Images/decoration/Icons/3.png"} alt="client_logo" width={100} height={100} />
+          <Image src={"/Images/decoration/Icons/3.png"} alt="Logo de décoration" width={100} height={100} />
         </motion.div>
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="hidden lg:flex absolute opacity-50 left-20 top-1/4">
-          <Image src={"/Images/socialmedia/mail.png"} alt="mail_logo" width={100} height={100} />
+          <Image src={"/Images/socialmedia/mail.png"} alt="Logo de décoration" width={100} height={100} />
         </motion.div>
       </section>
 
@@ -57,31 +57,31 @@ export default function Construisons() {
           </p>
           <div className="flex justify-center items-center text-xs gap-5 flex-col sm:flex-row">
             <div className="flex flex-col items-center justify-center gap-2">
-              <Image src="/Images/home/professionnel.png" alt="professionnel_logo" width={100} height={100} className="" />
+              <Image src="/Images/home/professionnel.png" alt="Logo Professionnel" width={100} height={100} className="" />
               <h3 className="text-base">Professionnel</h3>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
-              <Image src="/Images/home/securite.png" alt="securite_logo" width={100} height={100} className="" />
+              <Image src="/Images/home/securite.png" alt="Logo Sécurité" width={100} height={100} className="" />
               <h3 className="text-base">Sécurité</h3>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
-              <Image src="/Images/home/Developpement.png" alt="developpement_logo" width={100} height={100} className="" />
+              <Image src="/Images/home/Developpement.png" alt="Logo Développement" width={100} height={100} className="" />
               <h3 className="text-base">Développement</h3>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
-              <Image src="/Images/home/originalite.png" alt="originalite_logo" width={100} height={100} className="" />
+              <Image src="/Images/home/originalite.png" alt="Logo Originalité" width={100} height={100} className="" />
               <h3 className="text-base">Originalité</h3>
             </div>
           </div>
         </motion.div>
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="hidden md:flex absolute opacity-10 left-[18%] top-0 lg:left-20">
-          <Image src={"/Images/decoration/Icons/4.png"} alt="web_logo" width={100} height={100} />
+          <Image src={"/Images/decoration/Icons/4.png"} alt="Logo de décoration" width={100} height={100} />
         </motion.div>
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="hidden md:flex absolute opacity-10 left-[18%] lg:left-20 bottom-6 lg:bottom-10">
-          <Image src={"/Images/decoration/Icons/3.png"} alt="server_logo" width={100} height={100} />
+          <Image src={"/Images/decoration/Icons/3.png"} alt="Logo de décoration" width={100} height={100} />
         </motion.div>
         <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0.25 }} viewport={{ once: true }} className="hidden lg:flex absolute opacity-10 right-20 top-1/4">
-          <Image src={"/Images/decoration/Icons/2.png"} alt="cloud_logo" width={100} height={100} />
+          <Image src={"/Images/decoration/Icons/2.png"} alt="Logo de décoration" width={100} height={100} />
         </motion.div>
       </section>
     </main>

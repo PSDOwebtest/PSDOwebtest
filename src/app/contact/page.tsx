@@ -55,8 +55,10 @@ export default function Page() {
                 setState("Envoyer")
             }, 5000)
         }
+        // @ts-ignore
         e.target.reset();
     }
+    // @ts-ignore
     return (
         <>
             <CustomHead title={"Contactez-nous"} description={"Pour commencez votre démarche de création de site web c'est par ici !"} keywords={"contactez nous, contactez-nous"}/>
@@ -69,15 +71,17 @@ export default function Page() {
                 )}
             </AnimatePresence>
             <div className="relative min-h-dvh max-h-fit flex flex-col items-center gap-5">
-                <form onSubmit={submitHandler} className={"flex flex-col justify-center items-center"}>
+                <form onSubmit={submitHandler}
+                      className={"flex flex-col justify-center items-center"}>
                     <section
                         className={"bg-gradient-to-b from-0% from-custom_blue_black to-[5%] to-white w-dvw flex flex-col items-center py-10"}>
-                        <p className={"text-custom_blue_black text-3xl font-bold pb-10"}>Contactez-nous</p>
+                        <h1 className={"text-custom_blue_black text-3xl font-bold pb-10"}>Contactez-nous</h1>
                         <div
                             className={"z-10 bg-custom_yellow flex flex-col justify-center items-center gap-5 mobile:w-[20rem] w-[45vw] p-5 rounded shadow-custom_shadow"}>
-                            <p className={"text-2xl font-bold text-center"}>Information personnelle</p>
+                            <h3 className={"text-2xl font-bold text-center"}>Information personnelle</h3>
                             <div className={"flex flex-col justify-center items-center gap-5"}>
-                                <CustomFormInput type={"text"} name={"name"} labelVal={"Nom & prénom *"} required={true}/>
+                                <CustomFormInput type={"text"} name={"name"} labelVal={"Nom & prénom *"}
+                                                 required={true}/>
                                 <CustomFormInput type={"email"} name={"email"} labelVal={"Email *"} required={true}/>
                                 <CustomFormInput type={"phone"} name={"phone"} labelVal={"Numéro de téléphone *"}
                                                  required={true}/>
@@ -90,10 +94,11 @@ export default function Page() {
                         className={"relative w-dvw flex flex-col items-center py-10"}>
                         <div
                             className={"z-10 bg-custom_yellow flex flex-col justify-center items-center gap-5 mobile:w-[20rem] w-[45vw] p-5 rounded shadow-custom_shadow"}>
-                            <p className={"text-2xl font-bold text-center"}>Votre projet</p>
+                            <h3 className={"text-2xl font-bold text-center"}>Votre projet</h3>
                             <div className={"flex flex-col justify-center items-center gap-5"}>
                                 <CustomFormInput type={"text"} name={"project_type"} labelVal={"Type de projet"}/>
-                                <label htmlFor="project_desc" className={"w-72 text-center font-medium"}>Veuillez fournir
+                                <label htmlFor="project_desc" className={"w-72 text-center font-medium"}>Veuillez
+                                    fournir
                                     une
                                     brève
                                     description de votre projet</label>
@@ -103,7 +108,7 @@ export default function Page() {
                                                  className={"rounded mobile:w-[15rem] w-[30vw] h-36 p-0.5 shadow-custom_shadow resize-none"}></motion.textarea>
                             </div>
                         </div>
-                        <Image src={'/Images/decoration/banner.png'} alt={"banner"} width={2000} height={1000}
+                        <Image src={'/Images/decoration/banner.png'} alt={"Bannière de décoration"} width={2000} height={1000}
                                className={"absolute bottom-0 h-52 object-cover opacity-10"}/>
                     </section>
                     <section
@@ -129,7 +134,7 @@ export default function Page() {
                                         transition={{duration: 0.5}}
                                         exit={{x: -100, opacity: 0}}
                                         className={`${showMoreInfo ? "flex" : "hidden"} bg-custom_yellow flex-col justify-center items-center gap-5 mobile:w-[20rem] w-[45vw] p-5 rounded shadow-custom_shadow z-10`}>
-                                        <p className={"text-2xl text-center font-bold"}>Information supplémentaires</p>
+                                        <h3 className={"text-2xl text-center font-bold"}>Information supplémentaires</h3>
                                         <CustomFormInput type={"text"} name={"fav_color"}
                                                          labelVal={"Quelle(s) couleur(s) préférez-vous ?"}/>
                                         <CustomFormInput type={"text"} name={"inspiration"}
@@ -155,7 +160,7 @@ export default function Page() {
 
                             )}
                         </AnimatePresence>
-                        <Image src={'/Images/decoration/banner.png'} alt={"banner"} width={2000} height={1000}
+                        <Image src={'/Images/decoration/banner.png'} alt={"Bannière de décoration"} width={2000} height={1000}
                                className={`${showMoreInfo ? 'block' : 'hidden'} absolute bottom-0 h-52 object-cover opacity-10`}/>
                     </section>
                     <section
@@ -181,8 +186,8 @@ export default function Page() {
                                         transition={{duration: 0.5}}
                                         exit={{x: -100, opacity: 0}}
                                         className={`bg-custom_yellow ${showIsPro ? "flex" : "hidden"} z-10 flex-col justify-center items-center gap-5 mobile:w-[20rem] w-[45vw] p-5 rounded shadow-custom_shadow`}>
-                                        <p className={"text-2xl text-center font-bold"}>Informations sur votre
-                                            entreprise</p>
+                                        <h3 className={"text-2xl text-center font-bold"}>Informations sur votre
+                                            entreprise</h3>
                                         <div className={"flex flex-col justify-center items-center gap-5"}>
                                             <label htmlFor="already_website" className={"w-72 text-center font-medium"}>Disposez-vous
                                                 déjà
@@ -224,7 +229,7 @@ export default function Page() {
                                     </motion.div>
                                 )}
                             </AnimatePresence>
-                            <Image src={'/Images/decoration/banner.png'} alt={"banner"} width={2000} height={1000}
+                            <Image src={'/Images/decoration/banner.png'} alt={"Bannière de décoration"} width={2000} height={1000}
                                    className={`${showIsPro ? 'block' : 'hidden'} absolute bottom-0 h-52 object-cover opacity-10`}/>
                         </>
                         <div className={"flex flex-col items-center gap-5 pt-10 z-20"}>
@@ -241,19 +246,19 @@ export default function Page() {
                         </div>
                     </section>
                 </form>
-                <Image src={"/Images/decoration/Icons/1.png"} alt={''} width={140} height={140}
+                <Image src={"/Images/decoration/Icons/1.png"} alt={'Logo de décoration'} width={140} height={140}
                        className={"mobile:hidden absolute z-[5] right-20 top-10 opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/2.png"} alt={''} width={140} height={140}
+                <Image src={"/Images/decoration/Icons/2.png"} alt={'Logo de décoration'} width={140} height={140}
                        className={"mobile:hidden absolute z-[5] right-[30rem] top-[10rem] opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/3.png"} alt={''} width={200} height={200}
+                <Image src={"/Images/decoration/Icons/3.png"} alt={'Logo de décoration'} width={200} height={200}
                        className={"mobile:hidden absolute z-[5] left-[19rem] top-[10rem] opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/4.png"} alt={''} width={160} height={160}
+                <Image src={"/Images/decoration/Icons/4.png"} alt={'Logo de décoration'} width={160} height={160}
                        className={"mobile:hidden absolute z-[5] right-[10rem] top-[20rem] opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/6.png"} alt={''} width={160} height={160}
+                <Image src={"/Images/decoration/Icons/6.png"} alt={'Logo de décoration'} width={160} height={160}
                        className={"mobile:hidden absolute z-[5] left-[10rem] top-[30rem] opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/4.png"} alt={''} width={300} height={300}
+                <Image src={"/Images/decoration/Icons/4.png"} alt={'Logo de décoration'} width={300} height={300}
                        className={"tablet:hidden absolute z-[5] right-[10rem] top-[71rem] opacity-10"}/>
-                <Image src={"/Images/decoration/Icons/4.png"} alt={''} width={300} height={300}
+                <Image src={"/Images/decoration/Icons/4.png"} alt={'Logo de décoration'} width={300} height={300}
                        className={"tablet:hidden absolute z-[5] left-[10rem] top-[71rem] opacity-10"}/>
             </div>
         </>

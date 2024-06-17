@@ -15,8 +15,8 @@ export default function Home() {
                     <motion.div initial={{opacity: 0, y: -100}} animate={{opacity: 1, y: 0}}
                                 transition={{duration: 1.2}}
                                 className={"flex flex-col items-center w-fit gap-5 px-16 mobile:px-5 z-10"}>
-                        <motion.h2
-                            className={"text-[100px] font-semibold tablet:text-7xl tablet:text-center"}>{"PSDOweb"}</motion.h2>
+                        <motion.h1
+                            className={"text-[100px] font-semibold tablet:text-7xl tablet:text-center"}>{"PSDOweb"}</motion.h1>
                         <p className={"text-center w-[30rem] mobile:w-[15rem]"}>{"Nous transformons vos idées en expériences numériques innovantes, capturant l'attention de votre public cible."}</p>
                         <motion.div initial={{scale: 1}} whileHover={{scale: 1.05}}>
                             <Link href={'/contact'}
@@ -25,21 +25,21 @@ export default function Home() {
                         </motion.div>
                     </motion.div>
                     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}}>
-                        <Image src={"/Images/logo.png"} alt={"Logo"} height={400} width={400}
+                        <Image src={"/Images/logo.png"} alt={"Logo PSDOweb"} height={400} width={400}
                                className={"absolute tablet:top-[57%] tablet:right-1/2 tablet:translate-x-1/2 top-1/2 -translate-y-1/2 right-60 opacity-30"}/>
                     </motion.div>
                 </section>
                 <div
                     className={"bg-[url('/Images/decoration/banner.png')] w-full h-44 object-cover object-center opacity-10"}></div>
                 <section className={"flex flex-col items-center gap-10 py-2"}>
-                    <p className={"text-4xl font-bold"}>Collaborateurs</p>
+                    <h3 className={"text-4xl font-bold"}>Collaborateurs</h3>
                     <div>
                         <motion.div initial={{y: -50, opacity: 0}} whileInView={{y: 0, opacity: 1}}
                                     transition={{duration: 1}} viewport={{once: true}}
                                     className={"flex mobile:flex-col mobile:items-center gap-10"}>
                             <div className={"flex flex-col items-center gap-2"}>
                                 <Link href="https://www.gabinbuignet.xyz/">
-                                    <Image src={"/Images/Logo_collab.png"} alt={"Logo collaborateur"} height={100}
+                                    <Image src={"/Images/Logo_collab.png"} alt={"Logo de Gabin Buignet"} height={100}
                                            width={100}
                                            className={"bg-black rounded-full"}/>
                                 </Link>
@@ -47,20 +47,20 @@ export default function Home() {
                             </div>
                             <div className={"flex flex-col items-center gap-2"}>
                                 <Link href="">
-                                    <Image src={"/Images/logoCollab/logoMP.png"} alt={"Logo collaborateur"} height={100}
+                                    <Image src={"/Images/logoCollab/logoMP.png"} alt={"Logo de Maxime Petit"} height={100}
                                            width={100}
                                            className={"bg-black rounded-full"}/>
                                 </Link>
                                 <p className={"text-lg"}>Maxime Petit</p>
                             </div>
                             <div className={"flex flex-col items-center gap-2"}>
-                                <Image src={"/Images/logoCollab/logoDL.png"} alt={"Logo collaborateur"} height={100}
+                                <Image src={"/Images/logoCollab/logoDL.png"} alt={"Logo de Damien Landa"} height={100}
                                        width={100}
                                        className={"bg-black rounded-full"}/>
                                 <p className={"text-lg"}>Damien Landa</p>
                             </div>
                             <div className={"flex flex-col items-center gap-2"}>
-                                <Image src={"/Images/logoCollab/logoBD2.png"} alt={"Logo collaborateur"} height={100}
+                                <Image src={"/Images/logoCollab/logoBD2.png"} alt={"Logo de Benjamin Desmet"} height={100}
                                        width={100}
                                        className={"bg-black rounded-full"}/>
                                 <p className={"text-lg"}>Benjamin Desmet</p>
@@ -78,11 +78,11 @@ export default function Home() {
                         </motion.div>
                     </motion.div>
                     <div className={"mobile:hidden flex justify-between items-center w-full"}>
-                        <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo"} width={300} height={300}
+                        <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo de décoration"} width={300} height={300}
                                className={"opacity-20 w-[20vw]"}></Image>
-                        <Image src={"/Images/decoration/Icons/1.png"} alt={"Logo"} width={300} height={300}
+                        <Image src={"/Images/decoration/Icons/1.png"} alt={"Logo de décoration"} width={300} height={300}
                                className={"opacity-20 w-[20vw]"}></Image>
-                        <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo"} width={300} height={300}
+                        <Image src={"/Images/decoration/Icons/4.png"} alt={"Logo de décoration"} width={300} height={300}
                                className={"opacity-20 w-[20vw]"}></Image>
                     </div>
                 </section>
@@ -113,27 +113,27 @@ export default function Home() {
                         <motion.div initial={{opacity: 0, y: -30}} animate={{opacity: 1, y: 0}}
                                     transition={{duration: 0.5, delay: 0}} viewport={{once: true}}
                                     className={"flex flex-col items-center gap-3"}>
-                            <Image src={'/Images/home/professionnel.png'} alt={'Professionnel'} width={100}
+                            <Image src={'/Images/home/professionnel.png'} alt={'Logo Professionnel'} width={100}
                                    height={100}></Image>
                             <p>Professionnel</p>
                         </motion.div>
                         <motion.div initial={{opacity: 0, y: -30}} whileInView={{opacity: 1, y: 0}}
                                     transition={{duration: 0.5, delay: 0.5}} viewport={{once: true}}
                                     className={"flex flex-col items-center gap-3"}>
-                            <Image src={'/Images/home/securite.png'} alt={'Sécurité'} width={100} height={100}></Image>
+                            <Image src={'/Images/home/securite.png'} alt={'Logo Sécurité'} width={100} height={100}></Image>
                             <p>Sécurité</p>
                         </motion.div>
                         <motion.div initial={{opacity: 0, y: -30}} whileInView={{opacity: 1, y: 0}}
                                     transition={{duration: 0.5, delay: 1}} viewport={{once: true}}
                                     className={"flex flex-col items-center gap-3"}>
-                            <Image src={'/Images/home/Developpement.png'} alt={'Développement'} width={100}
+                            <Image src={'/Images/home/Developpement.png'} alt={'Logo Développement'} width={100}
                                    height={100}></Image>
                             <p>Développement</p>
                         </motion.div>
                         <motion.div initial={{opacity: 0, y: -30}} whileInView={{opacity: 1, y: 0}}
                                     transition={{duration: 0.5, delay: 1.5}} viewport={{once: true}}
                                     className={"flex flex-col items-center gap-3"}>
-                            <Image src={'/Images/home/originalite.png'} alt={'Originalité'} width={100}
+                            <Image src={'/Images/home/originalite.png'} alt={'Logo Originalité'} width={100}
                                    height={100}></Image>
                             <p>Originalité</p>
                         </motion.div>

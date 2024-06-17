@@ -10,7 +10,7 @@ export default function Page() {
             <CustomHead title={"FAQ"} description={"Retrouvez ici les réponses aux questions les plus fréquentes sur nos services et produits. Si vous ne trouvez pas ce que vous cherchez, contactez-nous directement !"} keywords={"faq"}/>
             <div className={"bg-gradient-to-b from-0% from-custom_blue_black to-10% to-white"}>
                 <section className={"flex flex-col items-center gap-5 pt-10"}>
-                    <p className={"text-3xl font-bold"}>Foire aux Questions</p>
+                    <h1 className={"text-3xl font-bold"}>Foire aux Questions</h1>
                     <p className={"px-5 text-center"}>Retrouvez ici les réponses aux questions les plus fréquentes sur
                         nos
                         services et produits. Si vous ne trouvez pas ce que vous cherchez, contactez-nous directement
