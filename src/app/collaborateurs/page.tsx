@@ -72,9 +72,9 @@ export default function Page() {
                         Ensemble, nous construisons le web de demain.
                     </motion.p>
                     <motion.div initial={{scale: 1}} whileHover={{scale: 1.15}}>
-                        <Link href="https://www.baptistepetit.com/" target={"_blank"}
+                        <Link href="/" target={"_blank"}
                               className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">
-                            Portfolio
+                            Retour a l'accueil
                         </Link>
                     </motion.div>
                 </motion.div>
@@ -192,12 +192,12 @@ export default function Page() {
                         et back-end, alliant expertise technique et créativité pour livrer des sites à la fois
                         performants et esthétiquement plaisants. Ma maîtrise de JavaScript, React et Node.js m&apos;aide
                         à trouver des solutions pour correspondre à vos attentes.</p>
-                    <motion.div initial={{scale: 1}} whileHover={{scale: 1.15}}>
-                        <Link href="/nous-contacter"
-                              className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">
-                            Portfolio
-                        </Link>
-                    </motion.div>
+                    {/*<motion.div initial={{scale: 1}} whileHover={{scale: 1.15}}>*/}
+                    {/*    <Link href="/"*/}
+                    {/*          className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">*/}
+                    {/*        Retour a l'accueil*/}
+                    {/*    </Link>*/}
+                    {/*</motion.div>*/}
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
@@ -233,12 +233,12 @@ export default function Page() {
                         permet de créer des sites ergonomiques et esthétiques, accessibles à tous. Que vous ayez besoin
                         d'un site vitrine élégant ou d'une application web complexe, je suis ici pour vous offrir des
                         solutions adaptées et inclusives.</p>
-                    <motion.div initial={{scale: 1}} whileHover={{scale: 1.15}}>
-                        <Link href="https://www.gabinbuignet.xyz/" target={"_blank"}
-                              className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">
-                            Portfolio
-                        </Link>
-                    </motion.div>
+                    {/*<motion.div initial={{scale: 1}} whileHover={{scale: 1.15}}>*/}
+                    {/*    <Link href="/" target={"_blank"}*/}
+                    {/*          className="flex justify-center items-center w-[343px] h-[41px] bg-custom_yellow rounded-[5px] shadow-lg z-10">*/}
+                    {/*        Retour a l'accueil*/}
+                    {/*    </Link>*/}
+                    {/*</motion.div>*/}
                 </motion.div>
                 <motion.div initial={{opacity: 0, y: -40}} whileInView={{opacity: 0.1, y: 0}}
                             transition={{duration: 1, delay: 0.5}} viewport={{once: true}}
