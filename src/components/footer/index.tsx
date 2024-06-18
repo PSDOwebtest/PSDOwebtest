@@ -30,9 +30,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row h-fit gap-5 md:gap-2 md:mt-10">
-            <Link href="https://www.linkedin.com/company/103985488/admin/dashboard/"><Image src="/Images/socialmedia/LinkedIn.png" alt="linkedin_link" width={60} height={60} className="w-5 md:w-10" /></Link>
-            <Link href="#"><Image src="/Images/socialmedia/Instagram.png" alt="instagram_link" width={60} height={60} className="w-5 md:w-10" /></Link>
-            <Link href="mailto:baptiste.petit@psdoweb.com"><Image src="/Images/socialmedia/mail.png" alt="mail_link" width={60} height={60} className="w-5 md:w-10" /></Link>
+            <Link href="https://www.linkedin.com/company/103985488/admin/dashboard/" target={"_blank"}><Image src="/Images/socialmedia/LinkedIn.png" alt="Lien vers le Linkedin" width={60} height={60} className="w-5 md:w-10" /></Link>
+            <Link href="https://www.facebook.com/people/PSDOweb/61561080124705/" target={"_blank"}><Image src="/Images/socialmedia/facebook.png" alt="Lien vers Facebook" width={60} height={60} className="w-5 md:w-10" /></Link>
+            <Link href="mailto:baptiste.petit@psdoweb.com"><Image src="/Images/socialmedia/mail.png" alt="Envoyer nous un mail" width={60} height={60} className="w-5 md:w-10" /></Link>
           </div>
         </div>
         <Image src="/Images/decoration/Icons/2.png" alt="cloud" width={70} height={70} className="opacity-10 hidden md:flex" />
